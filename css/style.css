@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFDB00;
+    box-sizing: border-box;
+}
+
+.nv-bar img {
+    width: 200px;
+}
+
+.nav-bar {
+    margin-left: auto;
+}
+
+.you {
+    color: #FFDB00 !important;
+}
+
+.home {
+    background-image: url("/images/home.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .text-h1 {
+    position: absolute;
+    top: 35%;
+}
+
+.home .row>* {
+    width: 85%;
+}
+
+.home .text h1 {
+    font-size: 60px;
+}
+
+.Services .text p {
+    color: black;
+}
+
+
+.Services .card-icon i {
+    font-weight: bold;
+    font-size: 22px;
+    color: black !important;
+    padding: 15px;
+}
+
+.Services .card-icon p {
+    color: black;
+}
+
+.Services .cards-info {
+    padding: 15px;
+}
+
+.Services .cards-info i {
+    margin: 15px;
+    font-size: 30px;
+}
+
+.Services .cards-info h3 {
+    color: white !important;
+}
+
+.Services .cards-info p {
+    color: #FFDB00 !important;
+}
+
+.Protofolio .text p {
+    color: black;
+}
+
+/* start contact  */
+.Contact .form-control {
+    width: auto;
+}
+/* end contact  */
+
+.footer ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    justify-content: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer ul li a {
+    color: #FFDB00 !important;
+}
